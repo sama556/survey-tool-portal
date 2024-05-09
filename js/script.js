@@ -49,6 +49,12 @@ function updateProgress(event) {
   successBar.style.width = successWidth + '%' ;
   warningBar.style.width = warningWidth + '%';
   dangerBar.style.width = dangerWidth + '%';
+  const img1= document.querySelector('.img1');
+  img1.style.opacity = 1;
+  const img2= document.querySelector('.img2');
+  img2.style.opacity = 1;
+  const img3= document.querySelector('.img3');
+  img3.style.opacity = 1;
 }
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -63,6 +69,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const progressBar2 = document.querySelector('#progress-bar2');
     progressBar2.style.width = '70%';
+    const star = document.querySelector('.star');
+    star.style.opacity = 1;
 
     const progressBar3 = document.querySelector('#progress-bar3');
     progressBar3.style.width = '40%';
