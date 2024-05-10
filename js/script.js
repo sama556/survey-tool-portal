@@ -169,4 +169,19 @@ var xValues = ["answer 80", "answer 10"];
   });
 
 
+  function changeContent(buttonIndex) {
+    const image = document.querySelector('.bank-two img');
+    const p1 = document.querySelector('.bank-p1');
   
+    
+    if (buttonIndex === 1) {
+   
+      image.src = "../image/Frame 1000005109 (1).png";
+      p1.textContent = "Question Bank";
+      
+    } else if (buttonIndex === 2) {
+      
+      image.src = "../image/mult.png";
+      p1.textContent = "Multi Languages";
+      
+    }}

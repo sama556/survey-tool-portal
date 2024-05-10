@@ -581,6 +581,21 @@ transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 
   border-radius: 50%;
 }
+.bank-btn1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 26px;
+  gap: 8px;
+  width: 76px;
+  height: 76px;
+  margin-left: 10px;
+  background: #ffffff;
+  border-radius: 100px;
+  
+transform: rotate(180);
+  border-radius: 50%;
+}
 .bank-two {
   position: absolute;
   height: 650.31px;
