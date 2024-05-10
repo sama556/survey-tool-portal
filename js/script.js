@@ -83,6 +83,26 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+ 
+  const que4 = document.querySelector('.que4');
+
+
+  que4.addEventListener('click', function() {
+  
+    const an1 = document.querySelector('.an1');
+    an1.style.opacity = 1;
+    
+
+    const an2 = document.querySelector('.an2');
+    an2.style.opacity = 1;
+    const an3 = document.querySelector('.an3');
+    an3.style.opacity = 1;
+  });
+});
+
+
+
 
 
 

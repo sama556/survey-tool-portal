@@ -412,6 +412,7 @@ width: 500px;
 top:30px;
 right: 50px;
 opacity: 0;
+transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
  
 }
 .img2{
@@ -421,6 +422,7 @@ opacity: 0;
   top:30px;
   right: 200px;
   opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 
 }
 .img3{
@@ -430,6 +432,7 @@ opacity: 0;
   top:30px;
   right: 320px;
   opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .que3 {
@@ -464,6 +467,26 @@ opacity: 0;
 
 
 }
+.an1{
+  position: relative; 
+  top: -100px;
+   left:200px;
+   opacity: 0;
+   transition: all;
+}
+.an2{
+  position: relative; 
+  top: -200px;
+   left:200px;
+   opacity: 0;
+}
+.an3{
+  position: relative; 
+  top: -100px;
+   left:200px;
+   opacity:0 ;
+}
+
 .que5{
   position: absolute;
   top: 4300px;
@@ -790,40 +813,31 @@ width:1345px;
 
 .f-div {
   position: absolute;
-  width: 300px;
+  width: 350px;
   height: 700px;
   top: 249px;
   left: 80px;
   gap: 64px;
   margin: 50px;
 }
-
-.f-p {
-  width: 450px;
-  height: 110px;
+.form-sec h1{
+  color:#fff;
   font-weight: 900;
-  font-size: 70px;
-  line-height: 88px;
-  color: #FFFFFF;
+  font-size: 48px;
+  line-height: 80px;
+}
+.f-div p{
+color: #fff;
+margin-top: 50px;
 }
 
-.f-p2 {
-  width: 450px;
-  height: 65px;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  color: #FFFFFF;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
+
 
 .f-input {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 16px 32px;
+  padding: 12px 30px;
   width: 250px;
   height: 68px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -834,7 +848,7 @@ width:1345px;
 }
 
 .f-btn {
-  padding: 16px;
+  padding: 10px;
   background: #6200EE;
   border-radius: 16px;
   flex: none;
